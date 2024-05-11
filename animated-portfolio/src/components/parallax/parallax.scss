@@ -1,0 +1,61 @@
+.parallax{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(180deg, #111132, #0c0c1d );
+
+h1{
+    font-size: 100px;
+    z-index: 2 ;
+    color: white;
+}
+.ground{
+    background-image: url("/ground_transparent.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3 ;
+}
+.clouds1{
+    background-image: url("/cloud-left_transparent.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  
+    
+}
+.clouds2{
+    background-image: url("/cloud-right_transparent.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hill-left{
+    background-image: url("/mountain-left.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.sun{
+    background-image: url("/sun_transparent.png");
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px; 
+    right: 50px;
+    
+}
+}
+
+
